@@ -1,7 +1,5 @@
-node {
-    stage('Nexus-Cleanup') {
-                def props = readProperties file: '/home/runner/work/CodeScanning_TestCodeScanning_Test//properties.jenkins' 
-                def RepoName = props['repo.name']
-                sh "echo ${RepoName}"
-    }
-}
+<script>
+console.log('Hello World');
+alert('Hello World');
+document.write('Hello World');
+</script>
