@@ -13,4 +13,3 @@ jobs:
 
       - name: Run FOSSA scan and upload build data
         uses: fossa-contrib/fossa-action@v1
-        run: echo "fossa executed"
